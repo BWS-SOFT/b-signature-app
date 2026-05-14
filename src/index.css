@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.signature-container * {
+  border-style: none;
+}
