@@ -3,9 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://signature-bwsiot.github.io/b-signature-app",
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
     "build": "vite build",
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview",
     "clean": "rm -rf dist",
     "lint": "tsc --noEmit"
@@ -28,6 +31,7 @@
     "@types/node": "^22.14.0",
     "@types/react": "^19.2.14",
     "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
     "tailwindcss": "^4.1.14",
     "tsx": "^4.21.0",
     "typescript": "~5.8.2",

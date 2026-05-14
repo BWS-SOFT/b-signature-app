@@ -189,7 +189,7 @@ export default function App() {
           <div className="p-8 md:p-12 overflow-x-auto bg-white flex justify-center items-center">
             {/* INÍCIO DA ASSINATURA */}
             <div ref={previewRef} className="signature-container">
-              <table cellPadding="0" cellSpacing="0" border={0} align="left" style={{ margin: '0px', borderCollapse: 'collapse', maxWidth: '100%', width: 'auto' }}>
+              <table cellPadding="0" cellSpacing="0" border={0} style={{ margin: '0px', borderCollapse: 'collapse', maxWidth: '100%', width: '100%' }}>
                 <tbody>
                   <tr>
                     <td style={{ padding: '0px 1px 0px 0px' }}>
